@@ -1,5 +1,8 @@
 /* GW ESP Project customizations */
 
+/* temp hide header search */
+.searchbar-right { display: none; }
+
 /* MASTHEAD */
 #masthead.navbar-static-top { min-height: 54px; }
 #masthead .container-fluid { padding-right: inherit; }
@@ -43,12 +46,11 @@ ul.top-nav-links { display: none; }
   margin: 2em;
   border: 1px solid #ddd;
   border-radius: 15px;
-  padding: 0 1em 1em;
-  width: 170%;
+  padding: 1em 2em 2em;
+  width: 178%;
   position: absolute;
   z-index: 1001;
   background-color: #fff;
-  opacity: .9;
 }
 .marketing-blurb h3 {
   margin-top: .5em;
